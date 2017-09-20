@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="func_selenium_test.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="func_selenium_test.py" pinned="false" current-in-tab="true">
         <entry file="file:$USER_HOME$//$PROJECT_DIR$/func_selenium_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="536">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="e#15#45#0" expanded="true" />
               </folding>
@@ -48,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="f_unit_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="f_unit_test.py" pinned="false" current-in-tab="false">
         <entry file="file:$USER_HOME$//$PROJECT_DIR$/f_unit_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="422">
@@ -94,11 +94,11 @@
         <option value="$PROJECT_DIR$/fuc_test.py" />
         <option value="$PROJECT_DIR$/f_test.py" />
         <option value="$PROJECT_DIR$/func_test.py" />
-        <option value="$PROJECT_DIR$/func_selenium_test.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/todo/views.py" />
         <option value="$PROJECT_DIR$/static/templates/index.html" />
         <option value="$PROJECT_DIR$/f_unit_test.py" />
+        <option value="$PROJECT_DIR$/func_selenium_test.py" />
       </list>
     </option>
   </component>
@@ -611,16 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:$USER_HOME$//$PROJECT_DIR$/func_selenium_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:$USER_HOME$//$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -651,6 +641,16 @@
           <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$USER_HOME$//$PROJECT_DIR$/func_selenium_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -48,7 +48,7 @@ browser.find_element_by_name('event_name').send_keys(Keys.ENTER)
 time.sleep(1)
 
 # 5
-check_list_in_ul(u"购买《Python核心编程》")
+check_list_in_ul(u"1. 购买《Python核心编程》")
 
 # 6
 browser.find_element_by_name('event_name').send_keys(u'购买《测试驱动开发》')
@@ -56,8 +56,8 @@ browser.find_element_by_name('event_name').send_keys(Keys.ENTER)
 time.sleep(1)
 
 # 7
-check_list_in_ul(u"购买《Python核心编程》")
-check_list_in_ul( u"购买《测试驱动开发》")
+check_list_in_ul(u"1. 购买《Python核心编程》")
+check_list_in_ul( u"2. 购买《测试驱动开发》")
 
 browser.quit()
 
