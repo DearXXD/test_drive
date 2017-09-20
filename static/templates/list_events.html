@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>待办事项</title>
+</head>
+<body>
+    <h1>待办事项</h1>
+    <h3>welcome</h3>
+    {% for event in events %}
+        <li>{{ event.event_name }}</li>
+    {% endfor %}
+</body>
+</html>

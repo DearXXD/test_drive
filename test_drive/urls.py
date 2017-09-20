@@ -1,3 +1,4 @@
+# coding:utf-8
 """test_drive URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -19,7 +20,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
-    url(r'^$', include('todo.urls')),
+    url(r'^', include('todo.urls')),
     url(r'^admin/', include(admin.site.urls)),
 ]
 
