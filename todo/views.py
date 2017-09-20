@@ -1,10 +1,15 @@
 # coding:utf-8
-from django.shortcuts import render,redirect
+from django.shortcuts import render
 from .models import TodoEnvet
 from .forms import TodoEnvetForm
 # Create your views here.
 
 def todo_event(request):
+    '''
+    处理待办事项,初始化--回显--保存
+    :param request: form
+    :return: page and data
+    '''
     events = TodoEnvet.objects.all()
     if request.method == 'POST':
         form = TodoEnvetForm(request.POST)
