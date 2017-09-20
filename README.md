@@ -1,7 +1,7 @@
 # test_drive
 ### 测试驱动
 #### 安装selenium 和 geckodriver
- 1.安装 selenium
+ 1. 安装 selenium
       + pip install selenium
  2. 安装 geckodriver
       + 下载 [geckodriver](https://github.com/mozilla/geckodriver/releases)<br>
