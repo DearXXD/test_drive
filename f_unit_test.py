@@ -58,15 +58,15 @@ class TodoTest(unittest.TestCase):
         inputbox.send_keys(Keys.ENTER)
         time.sleep(1)   # time for page refresh
 
-        self.check_list_in_ul(u"购买《Python核心编程》")
+        self.check_list_in_ul(u"1. 购买《Python核心编程》")
 
         inputbox = self.browser.find_element_by_name('event_name')
         inputbox.send_keys(u"购买《测试驱动开发》")
         inputbox.send_keys(Keys.ENTER)
         time.sleep(1)
 
-        self.check_list_in_ul(u"购买《测试驱动开发》")
-        self.check_list_in_ul(u"购买《Python核心编程》")
+        self.check_list_in_ul(u"2. 购买《测试驱动开发》")
+        self.check_list_in_ul(u"1. 购买《Python核心编程》")
         self.fail('Finish the test!')
 
 if __name__ == '__main__':

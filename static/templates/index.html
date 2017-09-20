@@ -20,3 +20,16 @@
     </ul>
 </body>
 </html>
+
+<script type="text/javascript">
+    function myfun(){
+        var ul = document.getElementById("myId");
+        var lis = []
+        lis = ul.getElementsByTagName("li");
+        for(var i = 0; i < lis.length; i++ ){
+            lis[i].innerHTML = (i+1) + '.' + ' ' + lis[i].innerHTML ;
+        }
+    }
+    window.onload = myfun;
+
+</script>

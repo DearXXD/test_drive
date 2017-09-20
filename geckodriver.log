@@ -3927,3 +3927,52 @@ JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCK
 1505912655426	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1505912655437	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
 1505912655520	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1505917053596	geckodriver	INFO	geckodriver 0.19.0
+1505917053606	geckodriver	INFO	Listening on 127.0.0.1:33737
+1505917054861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.K4kQ3xxdgIdm"
+
+(firefox:8104): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+1505917056062	Marionette	INFO	Enabled via --marionette
+
+(firefox:8104): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8104): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8104): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8104): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8104): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8104): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8104): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+
+(firefox:8104): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: 连接已关闭
+
+(firefox:8104): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+
+(firefox:8104): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+
+(firefox:8104): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8104): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8104): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:8104): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+1505917058765	Marionette	INFO	Listening on port 38098
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505917058816	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505917058891	Marionette	DEBUG	loaded listener.js
+1505917058937	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505917058990	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505917058990	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505917059002	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1505917059063	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1505917061731	Marionette	INFO	New connections will no longer be accepted
