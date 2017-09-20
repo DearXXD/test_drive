@@ -10,7 +10,7 @@
       + sudo chmod a+x /usr/local/bin/geckodriver<br>
       
 ---
-#### 初始化项目
+#### 测试驱动步骤
  1. 创建项目，完善配置文件
  2. 初始化本地仓库，链接并push远程仓库
  3. 写测试用例
