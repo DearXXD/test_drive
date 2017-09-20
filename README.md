@@ -3,7 +3,7 @@
 #### 安装selenium 和 geckodriver
  + pip install selenium
  + 下载 [geckodriver](https://github.com/mozilla/geckodriver/releases)<br>
-   移动 geckodriver 到/usr/local/bin/<br>
+  移动 geckodriver 到/usr/local/bin/<br>
    sudo mv ./geckodriver /usr/local/bin/<br>
    sudo chmod a+x /usr/local/bin/geckodriver<br>
 
