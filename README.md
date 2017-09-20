@@ -1,6 +1,6 @@
 # test_drive
 使用 selenium 编写测试，func_selenium_test.py<br>
-改进 unnittest + selenium 编写测试，f_unit_test.py<br>
+改进 使用unittest + selenium 编写测试，f_unit_test.py<br>
 
 ### 测试驱动
 1. 在开发应用的每一个部分之前先编写和运行测试，然后再编写少量的代码让测试通过
