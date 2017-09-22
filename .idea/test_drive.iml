@@ -13,14 +13,20 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file:$USER_HOME$//$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 2.7.12 virtualenv at ~/.virtualenvs/dj18" jdkType="Python SDK" />
+    <content url="file:$USER_HOME$/$MODULE_DIR$" />
+    <content url="file:$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/static/templates" />
+      </list>
+    </option>
   </component>
   <component name="TestRunnerService">
-    <option name="projectConfiguration" value="Nosetests" />
-    <option name="PROJECT_TEST_RUNNER" value="Nosetests" />
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
   </component>
 </module>

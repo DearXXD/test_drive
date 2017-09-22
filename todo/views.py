@@ -1,8 +1,9 @@
 # coding:utf-8
-from django.shortcuts import render
-from .models import TodoEnvet
+from django.shortcuts import render,redirect
+from .models import TodoEvent
 from .forms import TodoEnvetForm
 # Create your views here.
+
 
 def todo_event(request):
     '''
@@ -10,13 +11,12 @@ def todo_event(request):
     :param request: form
     :return: page and data
     '''
-    events = TodoEnvet.objects.all()
+    events = TodoEvent.objects.all()
     if request.method == 'POST':
         form = TodoEnvetForm(request.POST)
         if form.is_valid():
             form.save()
-        form = TodoEnvetForm()
-        return render(request, 'index.html', {'form': form, 'events': events})
+        return redirect('/')
     else:
         form = TodoEnvetForm()
         return render(request,'index.html',{'form': form, 'events': events})

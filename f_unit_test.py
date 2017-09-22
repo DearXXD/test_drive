@@ -44,7 +44,7 @@ class TodoTest(unittest.TestCase):
         6.小明在输入框中输入了“购买《测试驱动开发》”，并点击提交按钮
         7.页面中显示了两个待办事项
         '''
-        self.browser.get('http://localhost:8000')
+        self.browser.get('http://localhost/')
         self.assertIn(u"待办事项", self.browser.title)
 
         body_title = self.browser.find_element_by_tag_name('h1').text

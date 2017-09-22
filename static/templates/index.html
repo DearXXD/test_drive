@@ -13,23 +13,23 @@
         <button name="submit" type="submit" >Save</button>
     </form>
     以下待办事项：
-    <ul id="myId">
+    <ol id="myId">
         {% for event in events %}
             <li>{{ event.event_name }}</li>
         {% endfor %}
-    </ul>
+    </ol>
 </body>
 </html>
 
-<script type="text/javascript">
-    function myfun(){
-        var ul = document.getElementById("myId");
-        var lis = []
-        lis = ul.getElementsByTagName("li");
-        for(var i = 0; i < lis.length; i++ ){
-            lis[i].innerHTML = (i+1) + '.' + ' ' + lis[i].innerHTML ;
-        }
-    }
-    window.onload = myfun;
-
-</script>
+{#<script type="text/javascript">#}
+{#    function myfun(){#}
+{#        var ul = document.getElementById("myId");#}
+{#        var lis = []#}
+{#        lis = ul.getElementsByTagName("li");#}
+{#        for(var i = 0; i < lis.length; i++ ){#}
+{#            lis[i].innerHTML = (i+1) + '.' + ' ' + lis[i].innerHTML ;#}
+{#        }#}
+{#    }#}
+{#    window.onload = myfun;#}
+{##}
+{#</script>#}
