@@ -50,7 +50,7 @@ class TodoTest(unittest.TestCase):
         body_title = self.browser.find_element_by_tag_name('h1').text
         self.assertIn(u"待办事项", body_title)
 
-        body_welcome = self.browser.find_element_by_tag_name('h3').text
+        body_welcome = self.browser.find_element_by_tag_name('h3').tex
         self.assertIn(u"welcome", body_welcome)
 
         inputbox = self.browser.find_element_by_name('event_name')

@@ -1,0 +1,5 @@
+*.pyc
+*.pyo
+geckodriver.log
+func_*.py
+

@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42b9a3a0-32af-459c-865b-70dcd9f0725b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test_drive.iml" afterPath="$PROJECT_DIR$/.idea/test_drive.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/f_unit_test.py" afterPath="$PROJECT_DIR$/f_unit_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/index.html" afterPath="$PROJECT_DIR$/static/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo/models.py" afterPath="$PROJECT_DIR$/todo/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo/tests.py" afterPath="$PROJECT_DIR$/todo/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo/views.py" afterPath="$PROJECT_DIR$/todo/views.py" />
     </list>
     <ignored path="test_drive.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file:$USER_HOME$//$PROJECT_DIR$/todo/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -57,16 +50,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file:$USER_HOME$//$PROJECT_DIR$/todo/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file:$USER_HOME$//$PROJECT_DIR$/static/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,10 +63,32 @@
       <file leaf-file-name="f_unit_test.py" pinned="false" current-in-tab="false">
         <entry file="file:$USER_HOME$//$PROJECT_DIR$/f_unit_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="52" column="71" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="71" />
+            <state relative-caret-position="602">
+              <caret line="52" column="70" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="func_selenium_test.py" pinned="false" current-in-tab="true">
+        <entry file="file:$USER_HOME$//$PROJECT_DIR$/func_selenium_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file:$USER_HOME$//$PROJECT_DIR$/todo/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,9 +124,9 @@
         <option value="$PROJECT_DIR$/func_selenium_test.py" />
         <option value="$PROJECT_DIR$/todo/views.py" />
         <option value="$PROJECT_DIR$/static/templates/index.html" />
+        <option value="$PROJECT_DIR$/todo/models.py" />
         <option value="$PROJECT_DIR$/f_unit_test.py" />
         <option value="$PROJECT_DIR$/todo/tests.py" />
-        <option value="$PROJECT_DIR$/todo/models.py" />
       </list>
     </option>
   </component>
@@ -134,8 +139,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="63" />
     <option name="y" value="24" />
-    <option name="width" value="1303" />
-    <option name="height" value="744" />
+    <option name="width" value="1857" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -481,17 +486,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="24" width="1303" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="63" y="24" width="1857" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18726017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13139473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44514108" sideWeight="0.50188476" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24261275" sideWeight="0.5049885" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24261275" sideWeight="0.49811524" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2659686" sideWeight="0.4950115" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -560,6 +565,14 @@
     <entry file="file:$PROJECT_DIR$/f_unit_test.py" />
     <entry file="file:$PROJECT_DIR$/func_selenium_test.py" />
     <entry file="file:$PROJECT_DIR$/static/templates/index.html" />
+    <entry file="file:$USER_HOME$//$PROJECT_DIR$/static/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:$USER_HOME$//$PROJECT_DIR$/todo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -570,36 +583,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:$USER_HOME$//$PROJECT_DIR$/todo/tests.py">
+    <entry file="file:$USER_HOME$//$PROJECT_DIR$/todo/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:$USER_HOME$//$PROJECT_DIR$/static/templates/index.html">
+    <entry file="file:$USER_HOME$//$PROJECT_DIR$/todo/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:$USER_HOME$//$PROJECT_DIR$/f_unit_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="52" column="71" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="71" />
+        <state relative-caret-position="602">
+          <caret line="52" column="70" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:$USER_HOME$//$PROJECT_DIR$/todo/models.py">
+    <entry file="file:$USER_HOME$//$PROJECT_DIR$/func_selenium_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
